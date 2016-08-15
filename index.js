@@ -87,6 +87,7 @@ function gitlog(options, cb) {
   command += fileNameAndStatus(options)
 
   debug('command', command)
+  
 
   if (!cb) {
     // run Sync
